@@ -6,15 +6,15 @@
   </head>
   <body>
     <form action="cible.php" method="post">
-      <input type="text" name="firstname" value="Prénom"><br />
-      <input type="text" name="name" value="Nom" /><br />
+      <input type="text" name="firstname" value="Firstname"><br />
+      <input type="text" name="name" value="Name" /><br />
       <input type="text" name="age" value="Age" /><br />
-      <input type="radio" name="sexe" value="man" id="man" > <label for="homme">Homme</label>
-      <input type="radio" name="sexe" value="woman" id="woman" > <label for="femme">Femme</label><br />
-      <input type="text" name="city" value="Ville" /><br />
+      <input type="radio" name="sexe" value="man" id="man" > <label for="man">Man</label>
+      <input type="radio" name="sexe" value="woman" id="woman" > <label for="woman">Woman</label><br />
+      <input type="text" name="city" value="City" /><br />
       <input type="checkbox" name="hobbies" id="sport" /> <label for="sport">Sport</label><br />
-      <input type="checkbox" name="hobbies" id="lecture" /> <label for="lecture">Lecture</label><br />
-      <input type="checkbox" name="hobbies" id="cinema" /> <label for="cinema">Films</label><br />
+      <input type="checkbox" name="hobbies" id="reading" /> <label for="reading">Reading</label><br />
+      <input type="checkbox" name="hobbies" id="movies" /> <label for="movies">Movies</label><br />
       <input type="submit" value="Valider" />
     </form>
     <form action="target_files.php" method="post" enctype="multipart/form-data">

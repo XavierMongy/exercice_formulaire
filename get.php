@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['firstname']) AND isset($_GET['name']) AND isset($_GET['age']) AND isset($_GET['repetitions'])) {
-    //force la conversion en nombre entier
+    //assigner un type 
     $_GET['age'] = (int) $_GET['age'];
     $_GET['repetitions'] = (int) $_GET['repetitions'];
 
